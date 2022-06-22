@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background-color: #FFFF;
+    position: fixed;
+
+    -webkit-box-shadow: 6px 0px 4px 0px rgba(219,219,219,0.5);
+-moz-box-shadow: 6px 0px 4px 0px rgba(219,219,219,0.5);
+box-shadow: 6px 0px 4px 0px rgba(219,219,219,0.5);
+}
+.sidebar-logo{
+    object-fit: contain;
+    width: 150px;
+    padding: 25px 0px 0px 45px;
+}
+.link-container{
+    list-style: none;
+    margin-top: 50px;
+}
+.sidebar-link{
+    width: 100%;
+    height: 70px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    transition: all 0.5s;
+    background-color: #f1f1f1;
+}
+#active{
+    background-color: #f1f1f1;
+}
+.sidebar-link .sidebar-icon{
+    flex: 25%;
+    display: grid;
+    place-items: center;
+}
+.sidebar-link .sidebar-txt{
+    flex: 75%;
+}
+
+.sidebar-user{
+    margin-top: 120px;
+}
+.user-name{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
+.user-role{
+    color: #6A6565;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+.hr{
+    width: 200px;
+    height: 2px;
+    background-color: lightgrey;
+    margin: 10px 30px 0px 25px;
+}
+.logout-container{
+    display: flex;
+    margin: 20px 0px 0px 60px;
+}
+.logout-img{
+    object-fit: contain;
+    width: 25px;
+}
+.logout-txt{
+    color: #DE0000;
+    margin-left: 10px;
+}

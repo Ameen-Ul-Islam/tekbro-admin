@@ -1,0 +1,133 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    margin-left: 17%;
+}
+.welcome-txt{
+    font-family: Raleway, sans-serif;
+    margin: 30px 0px 0px 30px;
+    color: #0F2C67;
+}
+.name-line{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin: 40px 30px 0px 25px;
+}
+.dashboard-txt{
+    font-family: 'Raleway', sans-serif;
+    margin: 40px 0px 0px 30px;
+    color: #0F2C67;
+    font-weight: 900;
+}
+
+
+.stats-section{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.stat-1{
+    background-color: #EBF3F5;
+    width: 250px;
+    height: 320px;
+    margin: 20px 20px;
+}
+.stat-2{
+    background-color: #FEFCE3;
+    width: 250px;
+    height: 320px;
+    margin: 20px 20px;
+}
+.stat-3{
+    background-color: #F2ECF6;
+    width: 250px;
+    height: 320px;
+    margin: 20px 20px;
+}
+.stat-4{
+    background-color: #FFF0ED;
+    width: 250px;
+    height: 320px;
+    margin: 20px 20px;
+}
+
+.stat-icon-1{
+    color: #BCD7DE;
+    font-size: 80px;
+    padding: 50px 0px 0px 85px;
+}
+.stat-icon-2{
+    color: #F4F1CD;
+    font-size: 80px;
+    padding: 50px 0px 0px 85px;
+}
+.stat-icon-3{
+    color: #DFD2ED;
+    font-size: 80px;
+    padding: 50px 0px 0px 85px;
+}
+.stat-icon-4{
+    color: #F1D8D4;
+    font-size: 80px;
+    padding: 50px 0px 0px 85px;
+}
+
+.stat-txt{
+    font-size: 20px;
+    max-width: 20px;
+    padding: 20px 0px 0px 20px;
+    color: #0F2C67;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+.stat-num{
+    text-align: right;
+    padding: 50px 30px 0px 0px;
+    font-size: 30px;
+    color: #0F2C67;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.announcements-section{
+    color: #0F2C67;
+}
+.app-txt{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #0F2C67;
+    font-size: 32px;
+    margin: 40px 0px 0px 30px;
+}
+.app-input{
+    height: 80px;
+    width: 70%;
+    border-bottom: 2px solid #0F2C67;
+    margin: 40px 0px 0px 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    background-color: #fcfcfc;
+    border-radius: 8px 8px 0px 0px;
+    padding-left: 20px;
+}
+.app-input::placeholder{
+    color: lightgray;
+    font-family: 'Raleway', sans-serif;
+}
+.snd-btn{
+    background-color: white;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+.snd-icon{
+    color: #0F2C67;
+    font-size: 60px;
+    background-color: none;
+    margin-bottom: -20px;
+}
+.snd-icon:hover{
+    transition: all 0.5s;
+    padding-left: 15px;
+}
